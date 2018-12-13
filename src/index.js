@@ -18,8 +18,8 @@ const stats = {
 const render = finished => {
   const placeholder = '...';
   const ping = stats.ping ? `${stats.ping}ms` : placeholder;
-  const download = stats.download ? `${stats.download.toFixed()} Mbit/s (${(stats.download * multiplier).toFixed()} MB/s)` : placeholder;
-  const upload = stats.upload ? `${Math.round(stats.upload)} Mbit/s (${Math.round(stats.upload * multiplier)} MB/s)` : placeholder;
+  const download = stats.download ? `${(stats.download).toFixed(2)} Mbit/s (${(stats.download * multiplier).toFixed(2)} MB/s)` : placeholder;
+  const upload = stats.upload ? `${(stats.upload).toFixed(2)} Mbit/s (${(stats.upload * multiplier).toFixed(2)} MB/s)` : placeholder;
   const info = finished ? `Your IP: ${stats.client.ip} | Testserver: ${stats.server.host} in ${stats.server.location} ${stats.server.country}` : '';
 
   spinner.text = `${finished ? 'Test done': 'In progress ...'}
@@ -36,13 +36,15 @@ render();
 
 const test = speedTest({ maxTime: 20000 });
 
-// test.on('downloadspeedprogress', speed => {
-//   render();
-// });
+test.on('downloadspeedprogress', speed => {
+  stats.download = speed;
+  render();
+});
 
-// test.on('uploadspeedprogress', speed => {
-//   render();
-// });
+test.on('uploadspeedprogress', speed => {
+  stats.upload = speed;
+  render();
+});
 
 test.once('testserver', server => {
   stats.ping = Math.round(server.bestPing);
@@ -60,7 +62,7 @@ test.on('uploadspeed', speed => {
 });
 
 test.once('data', data => {
-  stats.client.ip = data.client.ip;
+  stats.client = data.client;
   stats.server = data.server;
   render(true);
   spinner.succeed();
@@ -68,7 +70,6 @@ test.once('data', data => {
 });
 
 test.on('error', err => {
-  render(true);
   spinner.fail();
   console.error(err);
   process.exit(1);

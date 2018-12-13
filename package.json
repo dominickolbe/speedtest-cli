@@ -1,7 +1,7 @@
 {
   "name": "@dominickolbe/speedtest-cli",
   "description": "CLI to test your internet speed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Dominic Kolbe <kolbedominic@gmail.com>",
   "homepage": "https://github.com/dominickolbe/speedtest-cli",
   "repository": {

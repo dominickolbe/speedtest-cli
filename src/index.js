@@ -27,7 +27,6 @@ const render = finished => {
     Ping: ${ping}
 Download: ${download}
   Upload: ${upload}
-
 `;
 };
 

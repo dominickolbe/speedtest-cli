@@ -16,6 +16,11 @@ via [npm](https://www.npmjs.com/package/@dominickolbe/speedtest-cli) :package:
 npm install --global @dominickolbe/speedtest-cli
 ```
 
+via yarn :package:
+```bash
+yarn global add @dominickolbe/speedtest-cli
+```
+
 ## Usage
 ```bash
 $ speedtest-cli

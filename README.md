@@ -4,6 +4,18 @@
   <p align="center">CLI to test your internet speed<p>
 </p>
 
+## Example output
+
+```bash
+✔ Test done
+
+    Ping: 7ms
+Download: 284 Mbit/s (35 MB/s)
+  Upload: 266 Mbit/s (33 MB/s)
+
+Your IP: x.x.x.x | Testserver: server-xy in Berlin DE
+```
+
 ## without Installation
 ```bash
 npx @dominickolbe/speedtest-cli

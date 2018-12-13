@@ -29,5 +29,12 @@
     "@babel/node": "^7.2.0",
     "@babel/preset-env": "^7.2.0"
   },
-  "engines" : { "node" : ">=8.12.0" }
+  "engines" : { "node" : ">=8.12.0" },
+  "keywords": [
+    "node",
+    "nodejs",
+    "speedtest",
+    "cli",
+    "terminal"
+  ]
 }

@@ -1,0 +1,27 @@
+{
+  "name": "@dominickolbe/speedtest-cli",
+  "description": "CLI to test your internet speed",
+  "version": "1.0.0",
+  "author": "Dominic Kolbe <kolbedominic@gmail.com>",
+  "main": "build/index.js",
+  "license": "MIT",
+  "bin": {
+    "speedtest-cli": "build/index.js"
+  },
+  "scripts": {
+    "build": "babel ./src -D -d ./build",
+    "dev": "babel-node ./src"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "ora": "^3.0.0",
+    "speedtest-net": "^1.4.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0"
+  },
+  "engines" : { "node" : ">=6.15.0" }
+}

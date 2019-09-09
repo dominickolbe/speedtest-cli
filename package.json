@@ -19,15 +19,15 @@
     "release": "yarn build && npm publish"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "ora": "^3.0.0",
-    "speedtest-net": "^1.4.3"
+    "chalk": "^2.4.2",
+    "ora": "^3.4.0",
+    "speedtest-net": "^1.5.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.0",
-    "@babel/core": "^7.2.0",
-    "@babel/node": "^7.2.0",
-    "@babel/preset-env": "^7.2.0"
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0"
   },
   "engines": {
     "node": ">=8.12.0"

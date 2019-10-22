@@ -1364,10 +1364,10 @@ http-proxy-agent@^2.0.0:
     agent-base "4"
     debug "3.1.0"
 
-https-proxy-agent@^2.1.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.2.tgz#271ea8e90f836ac9f119daccd39c19ff7dfb0793"
-  integrity sha512-c8Ndjc9Bkpfx/vCJueCPy0jlP4ccCCSNDp8xwCZzPjKJUm+B+u9WX2x98Qx4n1PiMNTWo3D7KK5ifNV/yJyRzg==
+https-proxy-agent@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-3.0.0.tgz#0106efa5d63d6d6f3ab87c999fa4877a3fd1ff97"
+  integrity sha512-y4jAxNEihqvBI5F3SaO2rtsjIOnnNA8sEbuiP+UhJZJHeM2NRm6c09ax2tgqme+SgUUvjao2fJXF4h3D6Cb2HQ==
   dependencies:
     agent-base "^4.3.0"
     debug "^3.1.0"
@@ -2339,14 +2339,14 @@ source-map@^0.6.0:
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
 speedtest-net@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/speedtest-net/-/speedtest-net-1.5.1.tgz#13296a64f377bbc3d3abef2bcab04c218e704cbc"
-  integrity sha512-az10ue3vkUUt49p5ommRO5eKXB5GfzyLehWCNRUnO686GjtdXJcSJFPnluc93UdoWTtWbr4fCVeH9Kka1OpHIA==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/speedtest-net/-/speedtest-net-1.6.0.tgz#b49dfa900c119f75f45e3fdb966cc62b34ab040f"
+  integrity sha512-uxeA4BGApj3Ghb6VQtcsem0ZoeyQGwLDzL6WP3hJiegS9GBIvpPKDeTzY5/K2/CMoZcihrVYIW3yIABQb2LMOg==
   dependencies:
     chalk "^2.4.1"
     draftlog "^1.0.12"
     http-proxy-agent "^2.0.0"
-    https-proxy-agent "^2.1.1"
+    https-proxy-agent "^3.0.0"
     xml2js "^0.4.4"
 
 split-string@^3.0.1, split-string@^3.0.2:

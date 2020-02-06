@@ -2419,9 +2419,9 @@ source-map@^0.6.0:
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
 speedtest-net@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/speedtest-net/-/speedtest-net-1.6.0.tgz#b49dfa900c119f75f45e3fdb966cc62b34ab040f"
-  integrity sha512-uxeA4BGApj3Ghb6VQtcsem0ZoeyQGwLDzL6WP3hJiegS9GBIvpPKDeTzY5/K2/CMoZcihrVYIW3yIABQb2LMOg==
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/speedtest-net/-/speedtest-net-1.6.2.tgz#626d1651ec0ca6235447bb318be853a9caeeef0c"
+  integrity sha512-0rfBDPVLzvDbMUKrFWvF6kvtXxllXGZRkFL0aCWJ5y8uXlEfZDo6IEPACZwJbKt/fGqFjJLJRHnG62vJmLLpRA==
   dependencies:
     chalk "^2.4.1"
     draftlog "^1.0.12"

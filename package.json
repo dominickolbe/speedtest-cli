@@ -19,7 +19,7 @@
     "release": "yarn build && npm publish"
   },
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.1.0",
     "ora": "^4.0.3",
     "speedtest-net": "^1.6.0"
   },

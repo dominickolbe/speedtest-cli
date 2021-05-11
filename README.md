@@ -17,6 +17,7 @@ Your IP: x.x.x.x | Testserver: server-xy in Berlin DE
 ```
 
 ## without Installation
+
 ```bash
 npx @dominickolbe/speedtest-cli
 ```
@@ -24,21 +25,25 @@ npx @dominickolbe/speedtest-cli
 ## Installation
 
 via [npm](https://www.npmjs.com/package/@dominickolbe/speedtest-cli) :package:
+
 ```bash
 npm install --global @dominickolbe/speedtest-cli
 ```
 
 via yarn :package:
+
 ```bash
 yarn global add @dominickolbe/speedtest-cli
 ```
 
 ## Usage
+
 ```bash
 $ speedtest-cli
 ```
 
 ### License
+
 MIT License
 
-Copyright (c) 2019 [Dominic Kolbe](https://dominickolbe.dk)
+Copyright (c) 2019-2021 [Dominic Kolbe](https://dominickolbe.dk)
